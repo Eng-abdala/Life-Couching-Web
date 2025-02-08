@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+<body>
+     <!-- Header -->
+     
+     <div class="bg-white sm:px-[150px] sm:fixed  px-[30px] w-full py-[20px] sm:items-center flex justify-between  ">
+        <div class="head" >
+            <h1 class="font-bold text-[25px] sm:text-[30px]">Abdullahi Salad Mohamed</h1>
+            <p class="text-[15px]">Personal Life Couch</p>
+        </div>
+        <ul class=" ul sm:flex sm:flex-row justify-center hidden flex-col gap-11 text-gray-700 sm:text-[15px] text-[22] items-center ">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="plans.html">Plans</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Guides</a></li>
+            <li><a href="index.html#footer">Contact</a></li>
+            <div class=" flex gap-2 items-center">
+                <i class="fa-solid fa-circle-user text-green-900"></i>
+                <p class="text-green-900 text-[20px]">Login</p>
+            </div>
+        </ul>
+        <div class="sm:hidden flex relative">
+            <i class="fa-solid fa-bars font-bold text-[20px] absolute top-0 right-0 menu"></i>
+            <i   class="fa-solid fa-x font-bold text-[20px] absolute top-0 right-0 close" ></i>
+        
+        </div> 
+       
+    </div>
+
+    <!-- Service -->
+
+    <div class="h-full bg-[url('images/bg.avif')] bg-cover bg-fixed  pt-[30px] pb-[30px]">
+        <div class="flex justify-start mt-[10%] pl-[80px]">
+         <div>
+            <h1 class="text-[40px] font-bold">______</h1>
+            <h1 class="font-bold text-[50px] my-[20px]">SERVICES</h1>
+         </div>
+        </div>
+
+        <div class="mt-[40px] flex justify-center">
+            <div>
+                <!-- responsive service -->
+                <select class="w-[400px] h-[80px] bg-white sm:hidden flex" name="" id="">
+                    <option class="text-[20px] bg-gray-200" value="all"> All Services</option>
+                    <option id="rperson" class="text-[20px] hover:bg-gray-200" value="person"> Personal Growth</option>
+                    <option id="rcareer" class="text-[20px] hover:bg-gray-200" value="career"> Career Ambitions</option>
+                </select>
+                <!-- large screen service -->
+            <ul class="sm:flex justify-center gap-9 text-[15px] hidden">
+                <li id="all" class="active::underline"><a href="">All Services</a></li>
+                <li id="person" class="active:underline"><a href="#servic1">Personal Growth</a></li>
+                <li  id="career" class="active:underline"><a href="#servic2">Career Ambitions</a></li>
+            </ul>
+            <p class="text-center ml-[32%] text-gray-400 hidden sm:flex">___________________________________________________</p>
+            <div id="service1" class="sm:flex sm:flex-row justify-center items-center  flex-col gap-11 mt-[25px]">
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px] mt-[20px]  bg-white  text-center">
+                    <h1 class=" text-[30px] text-center">FREE CONSULTANT</h1>
+                    <p class="text-gray-700 sm:text-[15px] text-[20px] px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[22px] text-center">45Min</p>
+            <button class="bg-black text-white sm:text-[18px] text-[25px]  sm:px-[20px] px-[50px] py-[5px] mt-[60px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px]  my-[20px] bg-white   text-center">
+                    <h1 class=" text-[30px] text-center">ONLINE COUCHING</h1>
+                    <p class="text-gray-700 sm:text-[15px] text-[20px] px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[12px] text-center">1hr</p>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">$70</p>
+            <button class="bg-black text-white sm:text-[18px] text-[25px]  sm:px-[20px] px-[50px] py-[5px] mt-[50px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px] bg-white  text-center">
+                    <h1 class=" text-[30px] text-center">SELF-IMPROVEMENT WORKSHOP</h1>
+                    <p class="text-gray-700 sm:text-[15px] text-[20px] px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">1hr</p>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">$90</p>
+            <button class="bg-black text-white sm:text-[18px] text-[25px]  sm:px-[20px] px-[50px] py-[5px] mt-[20px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>
+                
+            </div>
+            <div id="service2" class= " sm:flex sm:flex-row flex-col justify-center items-center gap-11 mt-[20px]">
+
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px] bg-white  text-center">
+                    <h1 class="  text-[30px] text-center">CORPORATE LIFE</h1>
+                    <p class="text-gray-700 sm:text-[15px] text-[20px] px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">1hr</p>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">$70</p>
+            <button class="bg-black text-white sm:text-[18px] text-[25px]  sm:px-[20px] px-[50px] py-[5px] mt-[50px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>   
+
+
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px] my-[20px] bg-white  text-center">
+                    <h1 class=" text-[30px] text-center">CAREER COUCHING</h1>
+                    <p class="text-gray-700 px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">1hr</p>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">$70</p>
+            <button class="bg-black text-white sm:text-[18px] tex-[25px]  sm:px-[20px] px-[50px] py-[5px] mt-[50px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>
+
+                <div class="sm:w-[280px] w-[400px] h-[350px] py-[20px] bg-white  text-center">
+                    <h1 class=" text-[30px] text-center">GROUP COUCHING</h1>
+                    <p class="text-gray-700 sm:text-[15px] text-[20px] px-[30px] mt-[10px]">Use this area to describe one of your services.</p>
+                <h1 class="px-[30px]">__________________________</h1>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">1hr</p>
+                <p class="sm:text-[15px] text-[20px] mt-[2px] text-center">$90</p>
+            <button class="bg-black text-white sm:text-[18px] text-[25px]  sm:px-[20px] px-[25px] py-[5px] mt-[50px] hover:py-[8px] hover:underline"> Book Now </button>
+
+
+                </div>
+
+               
+            </div>
+        </div>
+        </div>
+        
+
+    </div>
+<!-- footer -->
+<div id="footer" class="sm:flex flex-row justify-center px-[30px] gap-11 flex-col bg-cyan-600 pb-[20px]">
+    <div class="w-[500px]">
+        <h1 class="sm:text-[30px] text-[40px] font-bold">_____</h1>
+        <h1 class="font-bold sm:text-[20px] text-[30px] my-[20px]">CONTACT</h1>
+        <p class="sm:text-[15px] text-[25px]">Junngale Yaaqshiid, <br>
+        Mogadishu Somalia</p>
+        <p class="sm:text-[15px] text-[25px] my-[30px]">Tel: +252-613-482561 , <br>
+        +252-615-903319</p>
+        <p class="sm:text-[15px] text-[25px]">info@abdul.com</p>
+        <div class=" flex justify-start gap-3 my-[30px]">
+
+            <p><i class="fa-brands fa-facebook-f sm:text-[15px] text-[25px]"></i></p>
+            <p><i class="fa-brands fa-twitter sm:text-[15px] text-[25px]"></i></p>
+            <p><i class="fa-brands fa-instagram sm:text-[15px] text-[25px]"></i></p>
+            <p><i class="fa-brands fa-youtube sm:text-[15px] text-[25px]"></i></p>
+        </div>
+        <p class="sm:text-[15px] sm:flex hidden text-[25px] text-center">&copy; 2025 by Eng.abdalla</p>
+
+
+
+
+    </div>
+    <div class="w-[500px] mt-[20px]">
+        <form action="">
+            <div class="sm:flex gap-3 mb-[20px] flex-row">
+                <div>
+                    <label for="name">First Name:</label> <br>
+                    <input class=" FName sm:w-[230px] w-[450px] sm:h-[40px] h-[60px] border-[3px] border-black" type="text" > <br>
+                    <span class="Fspan text-red-700"></span>
+                </div>
+                <div>
+                    <label for="name">Lastst Name:</label> <br>
+                    <input class=" LName sm:w-[230px] w-[450px] sm:h-[40px] h-[60px] border-[3px] border-black" type="text" > <br>
+                    <span class="Lspan text-red-700"></span>
+
+                </div>
+            </div>
+
+                <label class="mt-[20px]" for="name">Email:</label> <br>
+                <input class=" Email w-[465px] sm:h-[40px] h-[60px] border-[3px] border-black " type="Email"  required> <br> <br>
+                <span class="Espan text-red-700"></span><br>
+
+                <label class="  mt-[20px] " for="name">Subject:</label> <br>
+                <input class="Subject w-[460px] sm:h-[40px] h-[60px] border-[3px] border-black" type="text" > <br><br>                     
+                <label for="name">Message:</label> <br>
+                <input class=" Message w-[460px] sm:h-[80px] h-[100px] border-[3px] border-black" type="text" >
+        <button  class="submit bg-black text-white sm:text-[18px] text-[25px] text-center ml-[210px] px-[40px] py-[2px] mt-[20px] hover:bg-white border-[2px] border-black hover:text-black">Submit </button>
+
+            
+        </form>
+        
+        <p class="sm:text-[15px] sm:hidden flex text-[25px] ml-[120px] text-center">&copy; 2025 by Eng.abdalla</p>
+        
+    </div>
+   </div>
+
+       <script src="main.js"></script>
+</body>
+</html>
